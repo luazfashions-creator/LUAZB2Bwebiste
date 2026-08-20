@@ -1,0 +1,10 @@
+{
+  "description": "Offers German SMEs a seamless platform to book certified corporate wellness sessions with full legal compliance and tax-free employee benefits.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
