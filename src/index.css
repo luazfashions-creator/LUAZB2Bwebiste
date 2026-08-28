@@ -1,18 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap');
 @import 'tailwindcss';
 
 @theme inline {
   --font-sans: 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
-  --font-serif: 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
-  --color-offwhite: #FAFAF8;
-  --color-stone: #E5E3DF;
-  --color-stone-dark: #C4C0B9;
-  --color-charcoal: #2A2A28;
-  --color-charcoal-muted: #555552;
-  --color-earth: #8C857B;
-  --color-earth-light: #B4ACA1;
-  --color-himalayan: #D4C5B9;
-  --color-himalayan-deep: #A89585;
+  --font-serif: 'DM Serif Display', ui-serif, serif;
+  --color-gold: #A9832E;
+  --color-gold-light: #F4EAD0;
+  --color-gold-mid: #E3D2A6;
+  --color-gold-deep: #8A6A24;
+  --color-gold-hover: #8F6F27;
+  --color-cream: #FAF7F1;
+  --color-cream-2: #F2EDE1;
+  --color-ink: #221E17;
+  --color-ink-muted: #6F6A5D;
+  --color-border: #E6DECB;
 }
 
 html {
@@ -20,13 +21,13 @@ html {
 }
 
 body {
-  background-color: var(--color-offwhite);
+  background-color: #FAF7F1;
   font-family: 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
-  color: var(--color-charcoal);
+  color: #221E17;
   -webkit-font-smoothing: antialiased;
 }
 
 /* Hide scrollbar until hovered */
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb { background: var(--color-stone-dark); border-radius: 3px; }
+::-webkit-scrollbar-thumb { background: #E3D2A6; border-radius: 3px; }
